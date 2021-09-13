@@ -1,0 +1,15 @@
+@charset "UTF-8";
+* {margin: 0; padding: 0; vertical-align: middle; box-sizing: border-box; border: 0;}
+html, body {width: 100%; height: 100%;}
+body {font: normal 14px/1 'Nanum Gothic', 'arial', 'sans-serif'; background: #f6f5ef; color: #222328;}
+header, main, footer, nav, section, aside {display: block;}
+a {text-decoration: none; color: #222328;}
+a:hover {text-decoration: underline;}
+button:hover {text-decoration: underline;}
+a:focus {text-decoration: underline;}
+button:focus {text-decoration: underline;}
+ul,li {list-style: none;}
+h1, h2, h3, h4, h5, h6 {font-size: 14px; font-weight: normal;}
+address, em, i {font-style: normal;}
+.clearfix::after {content: ''; display: block; clear: both;}
+.hide {display: none;}
